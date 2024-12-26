@@ -3,7 +3,7 @@ Overview
 
 This project is an interactive web-based decision tree application that helps users get tailored travel recommendations based on their preferences, activities, and budget. Users select options from dropdown menus, and the application generates suggestions for destinations that suit their choices.
 
-How It Works
+<h1> How It Works :-</h1>
 
 The user selects preferences for:
 
@@ -19,7 +19,7 @@ If any field is left empty, the user is prompted to fill in all the fields befor
 
 Users can clear their inputs using the "Clear Inputs" button.
 
-Features
+<h1>Features :- </h1>
 
 Responsive Design: The application adapts to different screen sizes, ensuring usability on both mobile and desktop devices.
 
@@ -29,7 +29,7 @@ Dynamic Recommendations: Recommendations are displayed dynamically based on user
 
 Input Validation: Ensures that users complete all fields before generating a result.
 
-Research
+<h1> Research :- </h1>
 
 Studied interactive decision tree methodologies to create logical branching for recommendations.
 
@@ -37,7 +37,7 @@ Investigated popular travel destinations and categorized them based on activity 
 
 Explored best practices for responsive web design and animation for improved user experience.
 
-How to Run
+<h1>How to Run:- </h1>
 
 Clone the repository to your local machine.
 
@@ -45,7 +45,7 @@ Open the index.html file in any modern web browser.
 
 Interact with the application by selecting preferences and generating recommendations.
 
-Potential Improvements
+<h1> Potential Improvements :- </h1>
 
 Enhanced Recommendations: Integrate APIs (e.g., Google Places, TripAdvisor) to fetch real-time destination suggestions.
 
@@ -57,6 +57,6 @@ Data Storage: Implement backend support to store user preferences and track popu
 
 Multilingual Support: Provide options for users to interact in different languages.
 
-License and Copyright
+<h1> License and Copyright:-</h1>
 
 © 2024 Sanu Kumar Roy. All rights reserved.
