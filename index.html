@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Decision Tree</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rapid Planner</h1>
+      <label for="preference">What’s your place?</label>
+      <select id="preference">
+        <option value="">-- Select an option --</option>
+        <option value="Mountains">Mountains</option>
+        <option value="Beach">Beach</option>
+        <option value="Forest">Forest</option>
+        <option value="Lake">Lake</option>
+        <option value="Snowy_Landscapes">Snowy Landscapes</option>
+        <option value="Historical Sites">Historical Sites</option>
+      </select>
+
+      <label for="activity">What’s your activities?</label>
+      <select id="activity">
+        <option value="">-- Select an option --</option>
+        <option value="Adventure">Adventure</option>
+        <option value="Relaxation">Relaxation</option>
+        <option value="Hiking">Hiking</option>
+        <option value="Scuba_Diving">Scuba Diving</option>
+        <option value="Skydiving">Skydiving</option>
+        <option value="Camping">Camping</option>
+        <option value="Rock_climbing">Rock Climbing</option>
+        <option value="Rafting">Rafting</option>
+      </select>
+
+      <label for="budget">What’s your budget?</label>
+      <select id="budget">
+        <option value="">-- Select an option --</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+
+      <label for="transport">What’s your travel style?</label>
+      <select id="transport">
+        <option value="">-- Select an option --</option>
+        <option value="Bike">Bike</option>
+        <option value="Car">Car</option>
+        <option value="Train">Train</option>
+        <option value="Flight">Flight</option>
+      </select>
+
+      <!-- Loading animation (hidden by default) -->
+      <div class="loader" id="loader" style="display: none"></div>
+
+      <div class="result" id="result">
+        <p id="output"></p>
+        <p id="distance"></p>
+        <p id="time"></p>
+      </div>
+
+      <button onclick="generateRecommendation()">Get Recommendation</button>
+      <button onclick="clearInputs()">Clear Inputs</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
