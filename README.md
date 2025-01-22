@@ -7,11 +7,13 @@ This project is an interactive web-based decision tree application that helps us
 
 The user selects preferences for:
 
-Destination type: Mountains or Beach.
+Destination type: Mountains or Beach and many more.
 
-Activity type: Adventure or Relaxation.
+Activity type: Adventure or Relaxation and many more.
 
 Budget: Low, Medium, or High.
+
+Travelling mode: Bike, Car, Train or Flight.
 
 Upon clicking the "Get Recommendation" button, the application uses predefined templates to generate a travel recommendation based on the selected options.
 
@@ -37,6 +39,8 @@ Investigated popular travel destinations and categorized them based on activity 
 
 Explored best practices for responsive web design and animation for improved user experience.
 
+studied interactive APIs fetch real-time geographical coordinates and provide real-time distance calculations.
+
 <h1>How to Run:- </h1>
 
 Clone the repository to your local machine.
@@ -47,15 +51,13 @@ Interact with the application by selecting preferences and generating recommenda
 
 <h1> Potential Improvements :- </h1>
 
-Enhanced Recommendations: Integrate APIs (e.g., Google Places, TripAdvisor) to fetch real-time destination suggestions.
+Enhanced Recommendations: Integrate APIs (e.g., OpenCage API) to fetch real-time geographical coordinates and provide real-time distance calculations for
+ recommended destinations, enhancing location-based recommendations
 
-Personalization: Allow users to input additional preferences like travel dates, group size, or specific interests.
+Personalization: Allow users to input additional preferences like Place, Activities, Budges and  move or travelling.
 
-Improved Styling: Add more visually appealing animations and modern design elements.
+Improved Styling: Add more visually appealing cards and modern design elements.
 
-Data Storage: Implement backend support to store user preferences and track popular recommendations.
-
-Multilingual Support: Provide options for users to interact in different languages.
 
 <h1> License and Copyright:-</h1>
 
